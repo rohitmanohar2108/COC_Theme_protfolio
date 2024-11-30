@@ -1,6 +1,7 @@
 import React from 'react';
 import { Sword, Shield, Trophy, Gem, Star, Book, Code2, Database, Globe, Flame } from 'lucide-react';
 
+
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -13,7 +14,7 @@ const Hero = () => {
         <div className="mb-8 relative">
           <div className="achievement-badge mx-auto mb-4 hover-float">
             <img 
-              src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=200&h=200"
+              src="http://localhost:3000/rohit.jpg"
               alt="Profile"
               className="w-full h-full rounded-full object-cover"
             />

@@ -29,7 +29,7 @@ const Contact = () => {
               <span className="text-yellow-400 text-sm">Join the Battle</span>
             </a>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/rohitmanohar2108"
               target="_blank"
               rel="noopener noreferrer"
               className="coc-card p-6 rounded-lg hover:scale-105 transition-transform hover-pulse"
@@ -39,7 +39,7 @@ const Contact = () => {
               <span className="text-yellow-400 text-sm">View Arsenal</span>
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/rohit-manohar-80b949207/"
               target="_blank"
               rel="noopener noreferrer"
               className="coc-card p-6 rounded-lg hover:scale-105 transition-transform hover-pulse"

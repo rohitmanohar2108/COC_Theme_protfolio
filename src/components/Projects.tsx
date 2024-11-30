@@ -4,19 +4,19 @@ import { Code, Globe, Rocket, Sword, Shield, Crosshair } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "Barbarian's Forge",
-      description: "Full-stack battle-tested application with real-time features",
-      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&q=80&w=400",
+      title: "FilmNinja",
+      description: "Built a responsive movie app with real-time data, optimized search, smart suggestions, and secure authentication.",
+      image: "https://do6gp1uxl3luu.cloudfront.net/projects/netflixProject.png",
       icon: <Sword className="w-12 h-12 text-red-500 glow-animation" />,
       level: 8,
       power: 95,
       tech: ["React", "Node.js", "MongoDB"],
-      link: "https://github.com/rohitmanohar2108",
+      link: "https://github.com/rohitmanohar2108/FilmNinja",
       demo: "https://demo.com"
     },
     {
-      title: "Archer's Watch",
-      description: "Long-range monitoring dashboard with precise analytics",
+      title: "Operating System Simulator",
+      description: "Developed a web app to visualize FIFO, LRU, and Optimal algorithms, improving memory management understanding.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=400",
       icon: <Crosshair className="w-12 h-12 text-green-500 glow-animation" />,
       level: 6,
@@ -26,8 +26,8 @@ const Projects = () => {
       demo: "https://demo.com"
     },
     {
-      title: "Dragon's Vault",
-      description: "Secure authentication system with unbreakable defenses",
+      title: "Airlines Reservation System",
+      description: "Online booking systems enhance airline management by improving reservations, reducing errors, streamlining operations, and boosting profitability.",
       image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=400",
       icon: <Shield className="w-12 h-12 text-blue-500 glow-animation" />,
       level: 7,

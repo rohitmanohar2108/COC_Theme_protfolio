@@ -189,8 +189,8 @@
 
 .achievement-badge {
   position: relative;
-  width: 80px;
-  height: 80px;
+  width: 140px;
+  height: 140px;
   background: radial-gradient(circle at center, #FFD700, #FFA500);
   border-radius: 50%;
   display: flex;
