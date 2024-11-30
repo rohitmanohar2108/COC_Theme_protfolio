@@ -1,5 +1,6 @@
 import React from 'react';
 import { Sword, Shield, Trophy, Gem, Star, Book, Code2, Database, Globe, Flame } from 'lucide-react';
+import useTypewriter from '../hooks/useTypewriter'
 
 
 const Hero = () => {
@@ -7,6 +8,15 @@ const Hero = () => {
     const element = document.getElementById(sectionId);
     element?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
+
+  const roles = [
+    "Web Developer",
+    "UI/UX Designer",
+    "Frontend Dev",
+  ];
+
+  const displayText = useTypewriter(roles, 100, 50, 2000);
+
 
   return (
     <section className="hero-section">
@@ -19,8 +29,8 @@ const Hero = () => {
               className="w-full h-full rounded-full object-cover"
             />
           </div>
-          <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 bg-yellow-600 px-4 py-1 rounded-full">
-            <span className="text-white text-sm font-bold">Frontend Dev</span>
+          <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 bg-yellow-600 px-4 py-0.5 rounded-full">
+            <span className="text-white text-sm font-bold">{displayText}</span>
           </div>
         </div>
 
