@@ -71,6 +71,25 @@
   position: relative;
 }
 
+.hero-subtitle {
+  font-size: 2rem;
+  background: linear-gradient(180deg, #FFD700 0%, #FFA500 50%, #FF8C00 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+  position: relative;
+}
+.hero-subtitle::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #FFD700, transparent);
+}
+
 .hero-title::after {
   content: '';
   position: absolute;
