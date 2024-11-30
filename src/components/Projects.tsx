@@ -42,6 +42,7 @@ const Projects = () => {
     <section id="projects" className="py-20 coc-container">
       <div className="container mx-auto px-4">
         <h2 className="section-title text-center mb-16">Battle Projects</h2>
+        <div className="section-divider mb-12"></div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="coc-card p-6 rounded-lg transform hover:scale-105 transition-all duration-300">

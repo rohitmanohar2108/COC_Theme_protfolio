@@ -6,7 +6,7 @@ const Contact = () => {
     <section id="contact" className="py-20 coc-container">
       <div className="container mx-auto px-4 text-center">
         <h2 className="section-title">Join My Clan</h2>
-        
+        <div className="section-divider mb-12"></div>
         <div className="coc-card max-w-3xl mx-auto p-8 rounded-lg">
           <div className="flex justify-center mb-8">
             <div className="achievement-badge w-24 h-24 hover-float">
@@ -57,6 +57,7 @@ const Contact = () => {
             <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-yellow-400 to-transparent"></div>
           </div>
         </div>
+        
       </div>
     </section>
   );
